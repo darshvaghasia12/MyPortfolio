@@ -206,12 +206,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.nav-menu .navhome a:hover, .nav-menu .navhome, .nav-menu .navhome li:hover > a {
-  color:#fff;
-  background:#0563bb;
-  opacity:0.65;
-}
-
 .nav-menu .active{
 	box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.03),
@@ -223,36 +217,11 @@ h1, h2, h3, h4, h5, h6 {
 ;
 }
 
-.nav-menu .navabout a:hover, .nav-menu .navabout, .nav-menu .navabout li:hover > a {
+.nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
   color: #fff;
-  background: #EB063A;
+  background: #0563bb;
   opacity:0.65;
 }
-
-.nav-menu .navskills a:hover, .nav-menu .navskills, .nav-menu .navskills li:hover > a {
-  color: #fff;
-  background: #A302A3	 ;
-  opacity:0.65;
-}
-
-.nav-menu .navportfolio a:hover, .nav-menu .navportfolio, .nav-menu .navportfolio li:hover > a {
-  color: #fff;
-  background: #FFB303;
-  opacity:0.65;
-}
-
-.nav-menu .navservices a:hover, .nav-menu .navservices, .nav-menu .navservices li:hover > a {
-  color: #fff;
-  background: #01B435;
-  opacity:0.65;
-}
-
-.nav-menu .navcontact a:hover, .nav-menu .navcontact, .nav-menu .navcontact li:hover > a {
-  color: #fff;
-  background: #F38800;
-  opacity:0.65;
-}
-
 
 
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu li:hover > a span {
